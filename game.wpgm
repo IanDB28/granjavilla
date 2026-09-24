@@ -19,6 +19,13 @@ program farmville {
 	keyboard.r().onPressDo({
 		personaje.regar()
 	})
+	keyboard.t().onPressDo({
+		personaje.plantarTrigo()
+	})
+	keyboard.o().onPressDo({
+		personaje.plantarTomaco()
+	})
+
  	
  	//  COMIENZA
 	game.start()
